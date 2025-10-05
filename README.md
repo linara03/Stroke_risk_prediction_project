@@ -9,3 +9,5 @@ Medical practitioners and healthcare organizations often face challenges in asse
 To address this issue, our team designed an intelligent software solution that leverages data mining and machine learning techniques to predict the risk of stroke. This predictive system provides an opportunity for timely medical consultation, lifestyle adjustment, and preventive care, thereby helping reduce potential complications.
 
 Our solution, called Stroke Riskometer, is an interactive application that enables users to input their health and lifestyle information to receive an estimated risk score. It aims to assist both individuals and healthcare providers in making data-driven decisions and promoting awareness about stroke prevention.
+
+Streamlit App: https://strokeriskpredictionproject-7bzbu2t3jimin73y9okakc.streamlit.app/
