@@ -18,10 +18,25 @@ st.markdown(
     """
     <style>
     .stApp { background-color: #fff5f5; }
+    div.stButton > button[kind="primary"] {
+    background-color: #FF4B4B !important; /* normal red */
+    }
+    div.stButton > button[kind="primary"]:hover {
+    background-color: #FF6B6B !important; /* light red hover */
+    }
+
+ 
+    div.stButton > button[kind="secondary"], div.stButton > button:not([kind]) {
+    background-color: #000000 !important; /* normal black */
+    }
+    div.stButton > button[kind="secondary"]:hover, div.stButton > button:not([kind]):hover {
+    background-color: #333333 !important; /* light black hover */
+    }
     </style>
     """,
     unsafe_allow_html=True
 )
+
 
 
 #Reset session state on refresh
